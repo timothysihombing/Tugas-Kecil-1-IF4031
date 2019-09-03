@@ -202,3 +202,62 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 			<td>~96000 KB</td>
 		</tr>
 	</table>
+
+#### High-level program (Node.js)
+Note: Test is done using Docker Container to run the node server and the ApacheBench tool.
+
+1. Testing receiving C10K 500 byte file
+	<table>
+		<tr>
+			<th>Eksperiment#</th>
+			<th>Response Time (mean)</th>
+			<th>Memory Usage</th>
+			<th>Failed requests</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>15513 ms</td>
+			<td>~136.315 MB</td>
+			<td>6216</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>16333 ms</td>
+			<td>~144.07434 MB</td>
+			<td>5898</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>13604 ms</td>
+			<td>~140.509 MB</td>
+			<td>5295</td>
+		</tr>
+	</table>
+
+2. Testing receiving C10K 20 KB file
+<table>
+	<tr>
+		<th>Eksperiment#</th>
+		<th>Response Time (mean)</th>
+		<th>Memory Usage</th>
+		<th>Failed requests</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>17230 ms</td>
+		<td>~207.618 MB</td>
+		<td>5975</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>14079 ms</td>
+		<td>~200.69745 MB</td>
+		<td>5281</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>15258 ms</td>
+		<td>~197.132 MB</td>
+		<td>5326</td>
+	</tr>
+</table>
