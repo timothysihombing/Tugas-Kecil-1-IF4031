@@ -235,29 +235,29 @@ Note: Test is done using Docker Container to run the node server and the ApacheB
 	</table>
 
 2. Testing receiving C10K 20 KB file
-<table>
-	<tr>
-		<th>Eksperiment#</th>
-		<th>Response Time (mean)</th>
-		<th>Memory Usage</th>
-		<th>Failed requests</th>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>17230 ms</td>
-		<td>~207.618 MB</td>
-		<td>5975</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>14079 ms</td>
-		<td>~200.69745 MB</td>
-		<td>5281</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>15258 ms</td>
-		<td>~197.132 MB</td>
-		<td>5326</td>
-	</tr>
-</table>
+	<table>
+		<tr>
+			<th>Eksperiment#</th>
+			<th>Response Time (mean)</th>
+			<th>Memory Usage</th>
+			<th>Failed requests</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>17230 ms</td>
+			<td>~207.618 MB</td>
+			<td>5975</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>14079 ms</td>
+			<td>~200.69745 MB</td>
+			<td>5281</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>15258 ms</td>
+			<td>~197.132 MB</td>
+			<td>5326</td>
+		</tr>
+	</table>
