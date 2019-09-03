@@ -109,22 +109,26 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	<table>
 		<tr>
 			<th>Eksperimen</th>
-			<th>Response Time</th>
+			<th>Request per Sec (mean)</th>
+			<th>Response Time (mean)</th>
 			<th>Memory Usage</th>
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Timeout (8412 reqs)</td>
+			<td>2234.16 req/sec</td>
+			<td>4475.953 ms</td>
 			<td>~110000 KB</td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Timeout (7888 reqs)</td>
+			<td>2079.22 req/sec</td>
+			<td>4688.21 ms</td>
 			<td>~98000 KB</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Timeout (7045 reqs)</td>
+			<td>2592.221 req/sec</td>
+			<td>4103.821 ms</td>
 			<td>~89000 KB</td>
 		</tr>
 	</table>
@@ -133,22 +137,26 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	<table>
 		<tr>
 			<th>Eksperimen</th>
-			<th>Response Time</th>
+			<th>Request per Sec (mean)</th>
+			<th>Response Time (mean)</th>
 			<th>Memory Usage</th>
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Timeout (7674 reqs)</td>
+			<td>2012.14 req/sec</td>
+			<td>4724.522 ms</td>
 			<td>~97000 KB</td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Timeout (7052 reqs)</td>
+			<td>1971.223 req/sec</td>
+			<td>4798.38 ms</td>
 			<td>~95000 KB</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Timeout (6766 reqs)</td>
+			<td>1988.72 req/sec</td>
+			<td>4771.67 ms</td>
 			<td>~96000 KB</td>
 		</tr>
 	</table>
@@ -159,22 +167,26 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	<table>
 		<tr>
 			<th>Eksperimen</th>
-			<th>Response Time</th>
+			<th>Request per Sec (mean)</th>
+			<th>Response Time (mean)</th>
 			<th>Memory Usage</th>
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Timeout (8412 reqs)</td>
+			<td>16027.41 req/sec</td>
+			<td>623.931 ms</td>
 			<td>~110000 KB</td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Timeout (7888 reqs)</td>
+			<td>16302.87 req/sec</td>
+			<td>613.389 ms</td>
 			<td>~98000 KB</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Timeout (7045 reqs)</td>
+			<td>15901.32 req/sec</td>
+			<td>598.42 ms</td>
 			<td>~89000 KB</td>
 		</tr>
 	</table>
@@ -183,22 +195,27 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	<table>
 		<tr>
 			<th>Eksperimen</th>
-			<th>Response Time</th>
+			<th>Request / sec (mean)</th>
+			<th>Response Time (mean)</th>
 			<th>Memory Usage</th>
+			<th>Failed Requests</th>
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Timeout (7674 reqs)</td>
+			<td>15271.49 req/sec</td>
+			<td>654.815 ms</td>
 			<td>~97000 KB</td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Timeout (7052 reqs)</td>
+			<td>15364.15 req/sec</td>
+			<td>650.866 ms</td>
 			<td>~95000 KB</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Timeout (6766 reqs)</td>
+			<td>15920.55 req/sec</td>
+			<td>628.119 ms</td>
 			<td>~96000 KB</td>
 		</tr>
 	</table>
