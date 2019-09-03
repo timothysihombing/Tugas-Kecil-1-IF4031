@@ -197,7 +197,7 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 		<tr>
 			<td>3</td>
 			<td>15901.32 req/sec</td>
-			<td>598.42 ms</td>
+			<td>628.42 ms</td>
 			<td>~89000 KB</td>
 			<td>391</td>
 		</tr>
@@ -207,7 +207,7 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	<table>
 		<tr>
 			<th>Eksperimen</th>
-			<th>Request / sec (mean)</th>
+			<th>Request per Sec (mean)</th>
 			<th>Response Time (mean)</th>
 			<th>Memory Usage</th>
 			<th>Failed Requests</th>
