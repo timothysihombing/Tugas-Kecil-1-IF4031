@@ -76,29 +76,29 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 
 1. Go to directory
 	```
-		$ cd file_sender_high_level
+	$ cd file_sender_high_level
 	```
 
 2. Run node server
 	```
-		$ node index.js [portNumber]
+	$ node index.js [portNumber]
 	```
 
 	Port number defaults to 9000
 
 3. Call the server as such
 	```
-		http://[IPAddress]:[portNumber]/[file-path]
+	http://[IPAddress]:[portNumber]/[file-path]
 	```
 
 4. To do benchmark for 500 bytes text file, with port 9000 and localhost, do
 	```
-		$ ab -n 10000 -c 10000 -r http://localhost:9000/assets/500b.txt
+	$ ab -n 10000 -c 10000 -r http://localhost:9000/assets/500b.txt
 	```
 
 5. To do benchmark for 20 KB text file, with port 9000 and localhost, do
 	```
-		$ ab -n 10000 -c 10000 -r http://localhost:9000/assets/200kb.txt
+	$ ab -n 10000 -c 10000 -r http://localhost:9000/assets/200kb.txt
 	```
 
 ### Testing Result
