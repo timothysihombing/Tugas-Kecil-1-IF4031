@@ -100,7 +100,7 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	```
 	$ ab -n 10000 -c 10000 -r http://localhost:9000/assets/200kb.txt
 	```
-#### Low-level program (C/C++ dan libevent)
+#### Low-level program (C/C++ and libevent)
 
 1. Go to directory
 	```
