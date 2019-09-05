@@ -81,7 +81,7 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 
 1. Go to directory
 	```
-	$ cd file_sender_high_level
+	$ cd high_level
 	```
 
 2. Run node server
