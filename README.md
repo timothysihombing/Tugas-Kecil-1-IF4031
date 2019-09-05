@@ -1,5 +1,10 @@
 # Tugas Kecil 1 IF4031
 
+### Authors
+13514070 - Dendy Suprihady
+13516062 - Yusuf Rahmat Pratama
+13516090 - Timothy Thamrin Andrew H. Sihombing
+13516022 - Albert Sahala Theodore
 
 ## Server Benchmark
 
