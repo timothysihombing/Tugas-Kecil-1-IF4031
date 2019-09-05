@@ -125,12 +125,12 @@ We use <b>Apache Bench (Ab)</b> to measure the performance of Apache and Nginx w
 	http://[IPAddress]:[portNumber]/[file-path]
 	```
 
-4. To do benchmark for 500 bytes text file, with port 9000 and localhost, do
+4. To do benchmark for 500 bytes text file, with port 5555 and localhost, do
 	```
 	$ ab -n 10000 -c 10000 -r http://localhost:5555/500bytes.html
 	```
 
-5. To do benchmark for 20 KB text file, with port 9000 and localhost, do
+5. To do benchmark for 20 KB text file, with port 5555 and localhost, do
 	```
 	$ ab -n 10000 -c 10000 -r http://localhost:5555/20KB.html
 	```
